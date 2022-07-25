@@ -2,33 +2,23 @@
 @section('content')
 @include('section.menu')
 
-    <section id="hero">
-    @foreach($list_foto as $foto)
+<section id="hero">
     <div class="hero-container">
-        <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+       
             <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
             <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-          
-                    <img src="{{url("public/$foto->foto")}}" >
-                    
-                    <div class="carousel-container">
-                        <div class="carousel-content">
-                                <h2 class="animate__animated animate__fadeInDown" style="color: white">SELAMAT DATANG DI SIVENTALIS</h2>
-                                <p class="animate__animated animate__fadeInUp" style="color: white;"  >
-                                Siventalis Adalah Sistem Informasi
-                                    Inventarisir Alat Dan Fasilitas Politeknik Negeri Ketapang yang dibuat untuk mempermudah
-                                    kita untuk melihat data Alat dan Fasilitas di Politeknik Negeri Ketapang</p>
-
-                            </div>
+                <div class="carousel-item active" style="background-image: url('https://serpongupdate.com/wp-content/uploads/2020/09/pupr22.jpg');">
+                    <div class="carousel-container " style="padding-top: 20% ;">
+                        <div class="carousel-content " for="#id-img">
+                            <h2 class="animate__animated animate__fadeInDown" >SELAMAT DATANG DI SIVENTALIS</h2>
+                            <p class="animate__animated animate__fadeInUp">Siventalis Adalah Sistem Informasi Inventarisir Alat Dan Fasilitas Politeknik Negeri Ketapang yang dibuat untuk mempermudah kita untuk melihat data Alat dan Fasilitas di Politeknik Negeri Ketapang</p> 
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
-        @endforeach
-    </section>
+    </div>
+</section>
 
     <main id="main">
         <section id="about" class="about">
