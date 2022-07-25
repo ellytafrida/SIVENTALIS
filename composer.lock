@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5a7d40ec8f201a2ae7371b75661cdcb5",
+    "packages": [
+        {
+            "name": "arrazy/simadu-data",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arrazymuhammad/simadu-data.git",
+                "reference": "776823765e52f342f10b341d376c8c574ae37421"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arrazymuhammad/simadu-data/zipball/776823765e52f342f10b341d376c8c574ae37421",
+                "reference": "776823765e52f342f10b341d376c8c574ae37421",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Razy\\SimaduData\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Razy\\SimaduData\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ar-Razy Muhammad",
+                    "email": "arrazymuhammad@live.com"
+                }
+            ],
+            "description": "Simadu Data for internal use",
+            "support": {
+                "issues": "https://github.com/arrazymuhammad/simadu-data/issues",
+                "source": "https://github.com/arrazymuhammad/simadu-data/tree/v1.0.0"
+            },
+            "time": "2022-07-02T10:51:14+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

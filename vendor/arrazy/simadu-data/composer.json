@@ -1,0 +1,25 @@
+{
+    "name": "arrazy/simadu-data",
+    "description": "Simadu Data for internal use",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Razy\\SimaduData\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Razy\\SimaduData\\ServiceProvider"
+            ]
+        }
+    },
+
+    "authors": [
+        {
+            "name": "Ar-Razy Muhammad",
+            "email": "arrazymuhammad@live.com"
+        }
+    ],
+    "require": {}
+}

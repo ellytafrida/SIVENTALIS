@@ -1,0 +1,53 @@
+{
+    "packages": [
+        {
+            "name": "arrazy/simadu-data",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arrazymuhammad/simadu-data.git",
+                "reference": "776823765e52f342f10b341d376c8c574ae37421"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arrazymuhammad/simadu-data/zipball/776823765e52f342f10b341d376c8c574ae37421",
+                "reference": "776823765e52f342f10b341d376c8c574ae37421",
+                "shasum": ""
+            },
+            "time": "2022-07-02T10:51:14+00:00",
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Razy\\SimaduData\\ServiceProvider"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Razy\\SimaduData\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ar-Razy Muhammad",
+                    "email": "arrazymuhammad@live.com"
+                }
+            ],
+            "description": "Simadu Data for internal use",
+            "support": {
+                "issues": "https://github.com/arrazymuhammad/simadu-data/issues",
+                "source": "https://github.com/arrazymuhammad/simadu-data/tree/v1.0.0"
+            },
+            "install-path": "../arrazy/simadu-data"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
